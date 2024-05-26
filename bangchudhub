@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/dungffdz/bangchudung/main/bangchuvip"))()
 local Window = Library.CreateLib("Bang Chủ Dũng Vip Pro", "DarkTheme")
-local Tab = Window:NewTab("Hub")
+local Tab = Window:NewTab("Bang Chủ Dũng Hub")
 local Section = Tab:NewSection("👇")
 local Section = Tab:NewSection("👇")
 Section:NewLabel("👇")
