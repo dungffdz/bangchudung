@@ -1,0 +1,411 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/dungffdz/bangchudung/main/bangchuvip"))()
+local Window = Library.CreateLib("Bang Chủ Dũng Vip Pro", "DarkTheme")
+local Tab = Window:NewTab("Hub")
+local Section = Tab:NewSection("👇")
+local Section = Tab:NewSection("👇")
+Section:NewLabel("👇")
+Section:NewButton("BangchuHub", "Script", function()
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Veincx5315/Created/VHub/Simple'),true))()
+end)
+Section:NewButton("Davi Hub V1", "Script", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/Davicoderliner/davigui/main/Daviguiv2loader.lua"),true))()
+end)
+Section:NewButton("British Hub", "Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/YourLocalNzi/Ye/main/BH%20v4%20Fix"))()
+end)
+Section:NewButton("Script Seacher GUI", "Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/ScriptSearcher"))()
+end)
+Section:NewButton("Moon ui V13", "Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IlikeyocutgHAH/MoonUI-v13-102-SCRIPTS/main/MoonUI%20v13!"))()
+end)
+Section:NewButton("Davi Hub V2", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Davicoderliner/davigui/main/DaviguiV2prealphaloader.lua',true))()
+end)
+Section:NewButton("Multi Script Hub V2", "Script", function()
+    --《Booting Library》--
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Kavo-Ui/main/Darkrai%20Ui", true))()
+
+--《Values & Functions》--
+function Destroy()
+    game.CoreGui:FindFirstChild("Darkrai"):Destroy()
+end
+
+--《Create Window》--
+local window = library:Window("MSHX V2","dsc.gg/0n1","",Enum.KeyCode.RightControl);
+
+--《Define Tabs》--
+tab1 = window:Tab("Information")
+tab2 = window:Tab("Neccesary Scripts")
+tab3 = window:Tab("Game Scripts")
+tab4 = window:Tab("FE Scripts")
+tab5 = window:Tab("Script Hubs")
+tab6 = window:Tab("Remote Spy's")
+tab7 = window:Tab("Player & Game")
+
+--《Define tab1》--
+tab1:Seperator("Current Place")
+
+tab1:Button(game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name,function()
+    setclipboard(game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name)
+end)
+
+tab1:Seperator("Username")
+
+tab1:Button(game:GetService("Players").LocalPlayer.Name,function()
+    setclipboard(game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name)
+end)
+
+tab1:Seperator("User ID")
+
+tab1:Button(game:GetService("Players").LocalPlayer.UserId,function()
+    setclipboard(game:GetService("Players").LocalPlayer.UserId)
+end)
+
+tab1:Line()
+
+tab1:Seperator("Credits")
+
+tab1:Button("Copy my Discord Tag",function()
+    setclipboard("killstreaked#0676")
+end)
+
+tab1:Button("Dịch Vụ Cày Thuê Giá Rẻ IB FB",function()
+    setclipboard("https://fb.com/Hungallian")
+end)
+
+tab1:Button("Facebook",function()
+    setclipboard("https://fb.com/Hungallian")
+end)
+
+tab1:Line()
+
+
+--《Define tab2》--
+tab2:Seperator("Usefull")
+
+tab2:Button("Key Board",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+tab2:Button("Netless",function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/dungffdz/bangchudung/main/codedeu'),true))()
+end)
+
+tab2:Button("Reset",function()
+    game.Players.LocalPlayer.Character.Head:Destroy()
+if game.Players.LocalPlayer.Character.Humanoid.Health < 5 then 
+    local deathmanok = game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").position
+    wait(1.5)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(deathmanok)
+end
+end)
+
+tab2:Button("Infinite Yield",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/dungffdz/bangchudung/main/Infinite%20Yield"))()
+end)
+
+tab2:Button("Chat Hax",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/dungffdz/bangchudung/main/Chat%20Hax", true))()
+end)
+
+tab2:Button("Fly GUI",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/dungffdz/bangchudung/main/Fly%20GUI"))()
+end)
+
+tab2:Button("BTools GUI",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/dungffdz/bangchudung/main/BTools%20GUI'))()
+end)
+
+tab2:Button("BTools",function()
+       a = Instance.new("HopperBin", game.Players.LocalPlayer.Backpack)
+a.BinType = 2
+b = Instance.new("HopperBin", game.Players.LocalPlayer.Backpack)
+b.BinType = 3
+c = Instance.new("HopperBin", game.Players.LocalPlayer.Backpack)
+c.BinType = 4 
+end)
+
+tab2:Button("ESP",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua'))()
+end)
+
+tab2:Line()
+
+--《Define tab3》--
+tab3:Seperator("Game Scripts")
+
+tab3:Button("Car Dealership Tycoon",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IExpIoit/Script/main/Car%20Dealership%20Tycoon.lua"))()
+end)
+
+tab3:Button("Legends Of Speed",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/dungffdz/bangchudung/main/Legends%20Of%20Speed", true))()
+end)
+
+tab3:Button("Prison Life",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))()
+end)
+
+tab3:Button("Blox Fruits",function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Script%20Game"))()
+end)
+
+tab3:Button("Doors [HARD MODE]",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/dungffdz/bangchudung/main/Door%20Hard%20Mode'))()
+end)
+
+tab3:Button("Ninja Legends",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()
+end)
+
+tab3:Button("My Restaurant",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
+end)
+
+tab3:Button("Squid Game",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LilFrench21/Hecta/main/Script/Squid%20Game"))()
+end)
+
+tab3:Button("Strong Muscle Simulator",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0strongmuscle", true))()
+end)
+
+tab3:Button("Natural Disaster Survival",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringUjHI6RQpz2o8", true))()
+end)
+
+tab3:Button("Pet Simulator X",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
+end)
+
+tab3:Button("Fencing GUI",function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/zsC61DcA'),true))()
+end)
+
+tab3:Button("Build A Boat For Treasure",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua"))()
+end)
+
+tab3:Line()
+
+--《Define tab4》--
+tab4:Seperator("FE No Hats")
+
+tab4:Button("Bloody Knife",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/25P2tVPD"))()
+end)
+
+tab4:Button("Spider",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/txsk1LJg'))()
+end)
+
+tab4:Button("Gale Fighter",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/YCH5P19e"))()
+end)
+
+tab4:Button("Backflip",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/n2gUwjc4"))()
+end)
+
+
+
+tab4:Line()
+
+
+
+tab4:Seperator("FE Hats")
+
+tab4:Button("Slasher",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/sVEn1Tza"))()
+end)
+
+tab4:Button("Psychopath",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/9Lharw50"))()
+end)
+
+tab4:Button("PP",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/uX5WBg9u"))()
+end)
+
+tab4:Button("Hat Spin",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/32PbiWw1", true))()
+end)
+
+tab4:Button("Fighter Gloves",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/BiXEtZ8M'))()
+end)
+
+
+tab4:Line()
+
+--《Define tab5》--
+tab5:Seperator("Script Hubs")
+
+tab5:Button("0n1 Hub V4",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/kDCQhBF0"))()
+end)
+
+tab5:Button("Davi GUI",function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/Davicoderliner/davigui/main/Daviguiv2loader.lua"),true))()
+end)
+
+tab5:Button("VG Hub",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+
+tab5:Button("Speed Hub X",function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Script%20Game"))()
+end)
+
+tab5:Button("Owl Hub",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
+tab5:Button("Psy Hub",function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/Zt1a4aE9')))() 
+end)
+
+tab5:Button("R6 Animations Hub",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/0MLPL32f'))()
+end)
+
+tab5:Button("Dark Hub",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+end)
+
+tab5:Button("EZ Hub",function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
+end)
+
+tab5:Button("Ghost Hub",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+end)
+
+tab5:Button("Obby Hub",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/Nv89Cn5d"))()
+end)
+
+tab5:Button("Moon Hub v13",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IlikeyocutgHAH/MoonUI-v13-102-SCRIPTS/main/MoonUI%20v13!"))()
+end)
+
+tab5:Button("Game Hub V6",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TakeModzz/Games-Hub-Script/main/Games%20Hub%20(Always%20updated)"))()
+end)
+
+tab5:Button("Fathom Hub",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/UmhaEvTT",true))()
+end)
+
+tab5:Button("Script Searcher",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/ScriptSearcher"))()
+end)
+
+tab5:Line()
+
+
+--《Define tab6》--
+tab6:Seperator("Remote Spy's")
+
+tab6:Button("Simple Spy",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpySource.lua"))()
+end)
+
+tab6:Button("Turtle Spy",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/7GmZyarT'))()
+end)
+
+tab6:Button("Ugly Spy",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/7GmZyarT'))()
+end)
+
+tab6:Button("Unknown Spy",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/fZGvku9G'))()
+end)
+
+tab6:Line()
+
+--《Define tab7》--
+tab7:Seperator("Player")
+
+tab7:Slider("Walk Speed",1,200,16,function(pws)
+       game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = pws 
+end)
+    
+tab7:Slider("Jump Power",1,200,50,function(pjp)
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = pjp
+end)
+
+tab7:Slider("Hip Height",1,200,0,function(phh)
+        game.Players.LocalPlayer.Character.Humanoid.HipHeight = phh
+end)
+
+tab7:Slider("Gravity",1,200,196.2,function(pg)
+       game.Workspace.Gravity = pg 
+end)
+
+tab7:Button("Anti Kick",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/FPfaukXN"))()
+end)
+
+tab7:Line()
+
+
+tab7:Seperator("Game")
+
+tab7:Button("Low Graphics",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/8QZGBLW8"))()
+end)
+
+tab7:Button("RTX",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/vmjZ4UY8"))()
+end)
+
+tab7:Line()
+
+tab7:Seperator("UI")
+
+tab7:Button("Destroy UI",function()
+    Destroy()
+end)
+
+tab7:Line()
+end)
+
+Section:NewToggle("Fov", "Changes The Fov", function(state)
+    if state then
+        game.Workspace.CurrentCamera.FieldOfView = 120
+    else
+        game.Workspace.CurrentCamera.FieldOfView = 80
+    end
+end)
+
+
+local Tab = Window:NewTab("Keyboard")
+local Section = Tab:NewSection("👇")
+Section:NewButton("Keyboard", "Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+local Tab = Window:NewTab("Client Arceus X")
+local Section = Tab:NewSection("👇")
+Section:NewButton("Arceus x", "Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
+end)
+local Tab = Window:NewTab("Client Krnl")
+local Section = Tab:NewSection("👇")
+Section:NewButton("Krnl", "Script", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/M3HjLPU7"))()
+end)
+local Tab = Window:NewTab("Client Synapse X")
+local Section = Tab:NewSection("👇")
+Section:NewButton("Synapse X", "Script", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/QmqSgQ3K"))()
+end)
+local Tab = Window:NewTab("Animations")
+local Section = Tab:NewSection("Animations")
+local Section = Tab:NewSection("👇")
+Section:NewButton("Animations", "Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
+end)
